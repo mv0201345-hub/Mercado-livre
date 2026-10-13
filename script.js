@@ -2,12 +2,12 @@ const produtos = [
     {
         nome: "AMD Ryzen 7 7800X3D",
         preco: 499.67,
-        imagem: "Imagens/ryzen.jpg"
+        imagem: "./Imagens/ryzen.jpg"
     },
     {
         nome: "SSD NVMe 2TB",
         preco: 67.00,
-        imagem: "Imagens/ssd.jpg"
+        imagem: "./Imagens/ssd.jpg"
     },
     {
         nome: "Placa de vídeo NVIDIA GeForce RTX 5090",
@@ -27,7 +27,7 @@ const produtos = [
     {
         nome: "Memória RAM 32GB DDR5",
         preco: 267.90,
-        imagem: "Imagens/ram.jpg"
+        imagem: "./Imagens/ram.jpg"
     }
 ];
 
