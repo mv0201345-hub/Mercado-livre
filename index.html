@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Livre</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="aviso">
+    
+    </div>
+
+    <header>
+        <div class="logo">Mercado Livre</div>
+
+        <input
+            type="text"
+            id="barraPesquisa"
+            placeholder="Buscar produtos..."
+        >
+
+        <button id="botaoCarrinho">
+            🛒 Carrinho
+        </button>
+    </header>
+
+    <main>
+
+        <h1>Ofertas do dia</h1>
+
+        <section id="produtos" class="produtos">
+
+            <!-- Os produtos serão colocados aqui pelo JavaScript -->
+
+        </section>
+
+    </main>
+
+   
+<div id="telaLogin" class="tela-login">
+    <div class="caixa-login">
+        <h1>Mercado Livre</h1>
+        <p>Entre para continuar comprando!</p>
+
+        <form id="formLogin">
+            <label for="emailLogin">E-mail</label>
+            <input
+                type="email"
+                id="emailLogin"
+                placeholder="Digite seu e-mail"
+                required
+            >
+
+            <label for="senhaLogin">Senha</label>
+            <input
+                type="password"
+                id="senhaLogin"
+                placeholder="Digite uma senha de teste"
+                required
+            >
+
+            <button type="submit">Entrar</button>
+        </form>
+
+        <p class="aviso-login">
+        </p>
+    </div>
+</div>
+ <script src="script.js"></script>
+</body>
+</html>
