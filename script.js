@@ -5,7 +5,7 @@ const produtos = [
     {
         nome: "AMD Ryzen 7 7800X3D",
         preco: 499.67,
-        imagem: "Imagens/ryzen.jpg"
+        imagem: "./Imagens/ryzen.jpg"
     },
     {
         nome: "SSD NVMe 2TB",
@@ -25,12 +25,12 @@ const produtos = [
     {
         nome: "Fonte 1000W 80 Plus",
         preco: 66.99,
-        imagem: "Imagens/fonte.jpg"
+        imagem: "./Imagens/fonte.jpg"
     },
     {
         nome: "Memória RAM 32GB DDR5",
         preco: 267.90,
-        imagem: "Imagens/ram.jpg"
+        imagem: "./Imagens/ram.jpg"
     }
 ];
 
